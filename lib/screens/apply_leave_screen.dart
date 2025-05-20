@@ -30,7 +30,7 @@ class _ApplyLeaveScreenState extends State<ApplyLeaveScreen> {
   DateTime? _startDate;
   DateTime? _endDate;
   
-  int _availableLeaves = 21; // This would normally come from an API
+  final int _availableLeaves = 21; // This would normally come from an API
   
   @override
   void dispose() {

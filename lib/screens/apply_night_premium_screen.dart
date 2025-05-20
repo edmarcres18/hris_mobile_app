@@ -17,12 +17,12 @@ class _ApplyNightPremiumScreenState extends State<ApplyNightPremiumScreen> {
   
   DateTime? _startDate;
   DateTime? _endDate;
-  TimeOfDay _nightShiftStart = const TimeOfDay(hour: 22, minute: 0); // 10 PM
-  TimeOfDay _nightShiftEnd = const TimeOfDay(hour: 6, minute: 0); // 6 AM
+  final TimeOfDay _nightShiftStart = const TimeOfDay(hour: 22, minute: 0); // 10 PM
+  final TimeOfDay _nightShiftEnd = const TimeOfDay(hour: 6, minute: 0); // 6 AM
   
   bool _includeWeekends = false;
-  double _premiumRate = 0.15; // 15% premium over base pay
-  double _baseHourlyRate = 15.50; // This would normally come from an API
+  final double _premiumRate = 0.15; // 15% premium over base pay
+  final double _baseHourlyRate = 15.50; // This would normally come from an API
   
   int _calculatedNights = 0;
   double _estimatedPremium = 0.0;

@@ -170,7 +170,7 @@ class AppSidebar extends StatelessWidget {
   Widget _buildHeader(BuildContext context, bool isSmallScreen) {
     final theme = Theme.of(context);
     
-    return Container(
+    return SizedBox(
       height: isSmallScreen ? 160 : 180,
       child: Stack(
         children: [

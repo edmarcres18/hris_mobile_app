@@ -313,7 +313,7 @@ class _BirthdaysScreenState extends State<BirthdaysScreen> with SingleTickerProv
                     decoration: BoxDecoration(
                       color: isToday ? 
                         theme.colorScheme.primary : 
-                        theme.colorScheme.surfaceVariant,
+                        theme.colorScheme.surfaceContainerHighest,
                       borderRadius: BorderRadius.circular(16),
                     ),
                     child: Text(
@@ -344,7 +344,7 @@ class _BirthdaysScreenState extends State<BirthdaysScreen> with SingleTickerProv
               employee, 
               theme,
               isToday: isToday,
-            )).toList(),
+            )),
             const SizedBox(height: 8),
           ],
         );

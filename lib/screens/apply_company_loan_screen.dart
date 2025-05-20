@@ -31,7 +31,7 @@ class _ApplyCompanyLoanScreenState extends State<ApplyCompanyLoanScreen> {
   
   double _interestRate = 0.05; // 5% annual interest
   double _loanAmount = 0.0;
-  double _maxLoanAmount = 50000.0; // Maximum allowed loan amount
+  final double _maxLoanAmount = 50000.0; // Maximum allowed loan amount
   
   final currencyFormatter = NumberFormat("#,##0.00", "en_US");
   
@@ -202,7 +202,7 @@ class _ApplyCompanyLoanScreenState extends State<ApplyCompanyLoanScreen> {
                       if (_loanAmount > 0)
                         Card(
                           elevation: 4,
-                          color: theme.colorScheme.surfaceVariant.withOpacity(0.7),
+                          color: theme.colorScheme.surfaceContainerHighest.withOpacity(0.7),
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(16),
                           ),

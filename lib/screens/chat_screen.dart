@@ -307,7 +307,7 @@ class _ChatScreenState extends State<ChatScreen> {
     
     // Context specific response based on the contact
     if (widget.isGroup) {
-      responseText = "This is important information for the team: " + responseText;
+      responseText = "This is important information for the team: $responseText";
     }
     
     // Simulate delay and response

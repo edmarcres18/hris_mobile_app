@@ -386,13 +386,13 @@ class _CalendarScreenState extends State<CalendarScreen> {
             Icon(
               Icons.event_busy,
               size: 64,
-              color: theme.colorScheme.onBackground.withOpacity(0.2),
+              color: theme.colorScheme.onSurface.withOpacity(0.2),
             ),
             const SizedBox(height: 16),
             Text(
               'No events for this day',
               style: theme.textTheme.titleMedium?.copyWith(
-                color: theme.colorScheme.onBackground.withOpacity(0.5),
+                color: theme.colorScheme.onSurface.withOpacity(0.5),
               ),
             ),
           ],

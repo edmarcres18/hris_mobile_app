@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'chat_screen.dart';
-import 'dart:math' as math;
 import '../routes/app_router.dart';
 
 class ChatContact {

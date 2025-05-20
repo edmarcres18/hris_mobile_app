@@ -29,7 +29,7 @@ class _ApplyOvertimeScreenState extends State<ApplyOvertimeScreen> {
   ];
   
   double _calculatedHours = 0.0;
-  double _hourlyRate = 15.50; // This would normally come from an API
+  final double _hourlyRate = 15.50; // This would normally come from an API
 
   @override
   void dispose() {
